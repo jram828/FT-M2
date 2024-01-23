@@ -21,13 +21,15 @@ class Counter extends Component {
         <button
           onClick={() => {
             /* Completar */
+            this.props.increment;
           }}
         >
-          + {/* Incremeta */}
+          + {/* Incrementa */}
         </button>
         <button
           onClick={() => {
             /* Completar */
+            this.props.decrement;
           }}
         >
           - {/* Decrementa */}
